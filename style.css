@@ -1,0 +1,110 @@
+body{
+    margin:0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    width: 10%;
+}
+nav ul {
+    list-style: none;
+    
+}
+nav ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+nav ul li {
+    margin-left: 40px;
+}
+.bannier{
+    position: relative;
+}
+.bannier  img{
+   
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+    
+
+.over {
+    background-color: rgba(220,220,220,0.5);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    overflow: auto;
+}
+.bannier .over button{
+    float:right;
+    margin-top: -37px;
+    margin-right: 18px;
+}
+
+
+section{
+    clear: right;
+    display: flex;
+    flex-flow:row nowrap ;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+section article{
+    
+    text-align: justify;
+    width: 60%;
+    
+}
+section aside{
+   text-align: center;
+   width: 35%;
+   background-color: gainsboro;
+   border-radius: 10px;
+}
+section aside img{
+    width: 60px;
+}
+section aside p{
+    text-align: justify;
+    padding: 10px;
+}
+aside div img{
+    width: auto;
+    margin-right:10px ;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+footer .pics div{
+    width:70px;
+    height: 30px;
+    background-color: black;
+    border: 5px blue solid;
+    display: inline-block;
+    
+
+
+    
+}
+footer .pics h3{
+    text-align: center;
+}
+hr{
+    border-style:dotted ;
+}
