@@ -10,6 +10,7 @@ nav img{
     width: 10%;
 }
 nav ul {
+    margin:0px;
     list-style: none;
     
 }
@@ -19,10 +20,17 @@ nav ul {
     justify-content:space-between;
     align-items: center;
     flex-wrap: nowrap;
+    margin-right: 20px;
     
 }
 nav ul li {
-    margin-left: 40px;
+    margin-left: 32px;
+    font-size:17px ;
+    font-weight: 600;
+}
+li a{
+    text-decoration: none;
+    color: black ;
 }
 .bannier{
     position: relative;
@@ -123,6 +131,4 @@ hr{
     nav ul{
         margin-left: -6px;
     }
-}
-    
 }
