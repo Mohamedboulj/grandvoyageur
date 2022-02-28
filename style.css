@@ -108,3 +108,13 @@ footer .pics h3{
 hr{
     border-style:dotted ;
 }
+@media screen and (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+    section aside,section article{
+        width: 100%;
+        margin:auto
+    }
+    
+}
